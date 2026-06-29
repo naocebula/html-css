@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias imagens
+
+    </title>
+</head>
+<body>
+    <h1>Imageem dinamica</h1>
+    <p>Tente abrir este site em diispositivo diferentes ou simplesmente aumente
+     e diminua o tamanho do seu navegador</p>
+     <picture>
+        <source media="(max-width: 550px)" srcset="imagem/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 750px)" srcset="imagem/foto-r.jpeg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagem/foto-m.jpg" type="image/jpg">
+        <img src="imagem/foto-g.jpg" alt="Imagem flexivel">
+     </picture>
+
+     <h2>Reproduzir media</h2>
+     <p>Vamos prender a reproduzir audio em html</p>
+     <audio src="felicidade.mp3" controls autoplay></audio>
+    
+</body>
+</html>
